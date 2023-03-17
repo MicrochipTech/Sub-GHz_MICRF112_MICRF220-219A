@@ -21,8 +21,6 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 
 
 
-
-
 ## Contents
 
 1. [Introduction](#step1)
@@ -31,7 +29,6 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 1. [Software Setup](#step4)
 1. [Harmony MCC Configuration](#step5)
 1. [Board Programming](#step6)
-1. [Run the demo](#step7)
 
 
 ## 1. Introduction<a name="step1">
@@ -98,54 +95,69 @@ This Application demonstrates the working of MICRF112-433-EV with PIC16F1619 and
 
 - [MPLAB X IDE ](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide#tabs)
 
-    - Version: 6.00
-	- XC32 Compiler v4.10
-	- MPLAB® Code Configurator v5.1.17
-	- PIC32CX-BZ_DFP v1.0.107
-	- MCC Harmony
-	  - csp version: v3.13.1
-	  - core version: v3.11.1
-	  - CMSIS-FreeRTOS: v10.4.6
-	  - wireless_pic32cxbz_wbz: v1.0.0
-	  - wireless_ble: v1.0.0	  
-	  - dev_packs: v3.13.1
-	  - wolfssl version: v4.7.0
-	  - crypto version: v3.7.6
-	    
-
-
-
+    - Version: 6.05
+	- XC8 Compiler v2.40
+	- MPLAB® Code Configurator v5.3.0
+	- PIC12-16F1xxx_DFP v1.3.90
+	- PIC18F-K_DFP v1.7.134
+	 
 - [MPLAB X IPE v6.00](https://microchipdeveloper.com/ipe:installation)
 
+## 5. Harmony MCC Configuration<a name="step5">
 
-**Step 4** - Connect the USB and Program the (MICRF112) application to the Device from MPLAB X IDE.
+### Getting started with MICRF112-433-EV with PIC16F1619(MCU) on Curiosity Development Board.
 
-**Step 5** - Verify the MCC configuration as shown below.
+| Tip | New users of MPLAB Code Configurator are recommended to go through the [overview](https://onlinedocs.microchip.com/pr/GUID-1F7007B8-9A46-4D03-AEED-650357BA760D-en-US-6/index.html?GUID-AFAB9227-B10C-4FAE-9785-98474664B50A) |
+| :- | :- |
 
-![](docs/tx1.png)
-![](docs/tx2.png)
+- configure the MCC configuration as shown below.
 
-![](docs/tx3.png)
+![](docs/tx1.png) 
+![](docs/tx2.png) 
+![](docs/tx3.png)  
 ![](docs/tx4.png)
 
+- Connect the USB for programming the Device from MPLAB X IDE.
 
+### Getting started with MICRF220/219A-433-EV with PIC18F47K40(MCU) on Explorer 8 Development Kit.
 
-
-**Step 5** - Connect the IDC 3 In-Circuit Debugger to program the device..
-
-**Step 6** - Verify the MCC configuration as shown below.
+- configure the MCC configuration as shown below.
 
 ![](docs/rx1.png)
 ![](docs/rx2.png)
-
 ![](docs/rx3.png)
 ![](docs/rx4.png)
-
 ![](docs/rx5.png)
 ![](docs/rx6.png)
-
 ![](docs/rx7.png)
 ![](docs/rx8.png)
-
 ![](docs/rx9.png)
 ![](docs/rx10.png)
+
+
+
+- Connect the IDC 3 In-Circuit Debugger to program the device..
+
+
+
+
+
+## 6. Board Programming<a name="step6">
+
+## Programming hex file:
+
+### Program the precompiled hex file using MPLAB X IPE
+
+- The Precompiled hex file is given in the hex folder.
+Follow the steps provided in the link to [program the precompiled hex file](https://microchipdeveloper.com/ipe:programming-device) using MPLABX IPE to program the pre-compiled hex image. 
+
+
+### Build and program the application using MPLAB X IDE
+
+The application folder can be found by navigating to the following path: 
+
+- "Transmitter/MICRF112.X"
+
+- "Receiver/MICRF220_219A.X"
+
+Follow the steps provided in the link to [Build and program the application](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz2_wbz45/tree/master/apps/ble/advanced_applications/ble_sensor#build-and-program-the-application-guid-3d55fb8a-5995-439d-bcd6-deae7e8e78ad-section).

@@ -58,9 +58,9 @@
         <targetDevice>PIC16F1619</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>pkob4hybrid</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>2.36</languageToolchainVersion>
+        <languageToolchainVersion>2.40</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -770,12 +770,15 @@
       </XC8-CO>
       <XC8-config-global>
         <property key="advanced-elf" value="true"/>
+        <property key="constdata-progmem" value="true"/>
         <property key="gcc-opt-driver-new" value="true"/>
         <property key="gcc-opt-std" value="-std=c99"/>
         <property key="gcc-output-file-format" value="dwarf-3"/>
+        <property key="mapped-progmem" value="false"/>
         <property key="omit-pack-options" value="false"/>
         <property key="omit-pack-options-new" value="1"/>
         <property key="output-file-format" value="-mcof,+elf"/>
+        <property key="smart-io-format" value=""/>
         <property key="stack-size-high" value="auto"/>
         <property key="stack-size-low" value="auto"/>
         <property key="stack-size-main" value="auto"/>
