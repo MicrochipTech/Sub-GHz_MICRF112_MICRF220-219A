@@ -1,4 +1,4 @@
-<config configVersion="1.1" device="PIC16F1619" coreVersion="4.85.1">
+<config configVersion="1.1" device="PIC16F1619" coreVersion="4.56">
    <usedClasses class="java.util.HashMap">
       <entry>
          <string>System Module</string>
@@ -25,12 +25,12 @@
          <string>class com.microchip.mcc.mcu8.systemManager.reset.RESET</string>
       </entry>
       <entry>
-         <string>TMR4</string>
-         <string>class com.microchip.mcc.mcu8.modules.tmr2.TMR2</string>
-      </entry>
-      <entry>
          <string>Interrupt Module</string>
          <string>class com.microchip.mcc.mcu8.interruptManager.InterruptManager</string>
+      </entry>
+      <entry>
+         <string>TMR4</string>
+         <string>class com.microchip.mcc.mcu8.modules.tmr2.TMR2</string>
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
@@ -2086,12 +2086,12 @@
          <value>0</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="CONFIG1" settingAlias="CP" alias="OFF"/>
-         <value>128</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Interrupt Module" name="IVT_NAME"/>
          <value>IVT1</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="System Module" registerAlias="CONFIG1" settingAlias="CP" alias="OFF"/>
+         <value>128</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CRC" registerAlias="CRCCON1" settingAlias="CRCPLEN"/>
@@ -4724,5 +4724,4 @@
          <hash>4f8a987c876957777ea5873f09d3b02df07c0b2c29ae28f75e9c8124a9447243</hash>
       </entry>
    </generatedFileHashHistoryMap>
-   <mc3libFileHashHistoryMap class="java.util.HashMap"/>
 </config>
