@@ -160,7 +160,7 @@ The application folder can be found by navigating to the following path:
 
 - "Receiver/MICRF220_219A.X"
 
-Follow the steps provided in the link to [Build and program the application](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz2_wbz45/tree/master/apps/ble/advanced_applications/ble_sensor#build-and-program-the-application-guid-3d55fb8a-5995-439d-bcd6-deae7e8e78ad-section).
+Follow the steps provided in the link to [Build and program the application](https://microchipdeveloper.com/mplabx:build).
 
 ## 7. Run the demo<a name="step7">
 
