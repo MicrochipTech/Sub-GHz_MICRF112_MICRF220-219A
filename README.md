@@ -29,7 +29,7 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 1. [Software Setup](#step4)
 1. [Harmony MCC Configuration](#step5)
 1. [Board Programming](#step6)
-
+1. [Run the demo](#step7)
 
 ## 1. Introduction<a name="step1">
 
@@ -161,3 +161,9 @@ The application folder can be found by navigating to the following path:
 - "Receiver/MICRF220_219A.X"
 
 Follow the steps provided in the link to [Build and program the application](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz2_wbz45/tree/master/apps/ble/advanced_applications/ble_sensor#build-and-program-the-application-guid-3d55fb8a-5995-439d-bcd6-deae7e8e78ad-section).
+
+## 7. Run the demo<a name="step7">
+
+- After programming the board, the expected application behavior is shown in the below [video](https://github.com/MicrochipTech/Sub-GHz_MICRF112_MICRF220-219A/blob/main/docs/Working_Demo.gif).
+
+![Alt Text](docs/Working_Demo.gif)
