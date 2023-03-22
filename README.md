@@ -71,7 +71,7 @@ This Application demonstrates the working of MICRF112-433-EV with PIC16F1619 and
 | J2-3     |    N/C        |    N/C      |
 
 
-![](docs/MICRF112.JPG)
+![](docs/MICRF112.jpg)
 
 ### MICRF220/219A-433-EV with PIC18F47K40(MCU) on Explorer 8 Development Kit.
 
@@ -165,5 +165,9 @@ Follow the steps provided in the link to [Build and program the application](htt
 ## 7. Run the demo<a name="step7">
 
 - After programming the board, the expected application behavior is shown in the below [video](https://github.com/MicrochipTech/Sub-GHz_MICRF112_MICRF220-219A/blob/main/docs/Working_Demo.gif).
+
+The MICRF112 is a transmitter which sends the incremented counter value and whenever the data is transmitted the D7 led glows.  
+
+The MICRF220/219A is a receiver which receives the data from the MICRF112 and displays the data received in TX and the number of packets received in RX and the RSSI value is also displayed. 
 
 ![Alt Text](docs/Working_Demo.gif)
