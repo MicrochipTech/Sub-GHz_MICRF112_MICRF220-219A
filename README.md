@@ -166,8 +166,8 @@ Follow the steps provided in the link to [Build and program the application](htt
 
 - After programming the board, the expected application behavior is shown in the below [video](https://github.com/MicrochipTech/Sub-GHz_MICRF112_MICRF220-219A/blob/main/docs/Working_Demo.gif).
 
-The MICRF112 is a transmitter which sends the incremented counter value and whenever the data is transmitted the D7 led glows.  
+- The MICRF112 is a transmitter which sends the incremented counter value and whenever the data is transmitted the D7 led glows.  
 
-The MICRF220/219A is a receiver which receives the data from the MICRF112 and displays the data received in TX and the number of packets received in RX and the RSSI value is also displayed. 
+- The MICRF220/219A is a receiver which receives the data from the MICRF112 and displays the data received in TX and the number of packets received in RX and the RSSI value is also displayed. 
 
 ![Alt Text](docs/Working_Demo.gif)
