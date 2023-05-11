@@ -5,9 +5,9 @@
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mplabx.project.Sub-GHz_MICRF112_MICRF220-219A",
         "version": "1.0.0",
-        "displayName": "Sub-GHz_MICRF112_MICRF220-219A",
+        "displayName": "MICRF112-433-EV AND MICRF220/219A-433-EV",
         "projectName": "Sub-GHz_MICRF112_MICRF220-219A",
-        "shortDescription": "This application demonstrates the use of an MICRF112-433-EV and MICRF220/219A-433-EV using ASK Modulation.",
+        "shortDescription": "IOT Made Easy!-This application demonstrates the use of an MICRF112-433-EV and MICRF220/219A-433-EV using ASK Modulation.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.05"
