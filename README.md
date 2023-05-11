@@ -3,7 +3,7 @@
 <img src="docs/IoT-Made-Easy-Logo.png" width=100>
 
 
-> "IOT Made Easy!" 
+> "IoT Made Easy!" 
 
 Devices: **| PIC16F1619 | PIC18F47K40 | MICRF112 | MICRF220 | MICRF219A|**<br>
 Features: **|Sub-GHz|**
