@@ -1,4 +1,4 @@
-# MICRF112-433-EV AND MICRF220/219A-433-EV 123
+# MICRF112-433-EV AND MICRF220/219A-433-EV
 
 <img src="docs/IoT-Made-Easy-Logo.png" width=100>
 
