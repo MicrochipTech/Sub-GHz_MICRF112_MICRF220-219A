@@ -4,18 +4,18 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mplabx.project.Sub-GHz_MICRF112_MICRF220-219A",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "displayName": "MICRF112-433-EV AND MICRF220/219A-433-EV",
         "projectName": "Sub-GHz_MICRF112_MICRF220-219A",
         "shortDescription": "IoT Made Easy!-This application demonstrates the use of an MICRF112-433-EV and MICRF220/219A-433-EV using ASK Modulation.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=6.05"
+            "semverRange": ">=6.20"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.40"
+                "semverRange": "^2.46"
             }
         ],
         "dfp": {
