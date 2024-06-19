@@ -33,7 +33,19 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 
 ## 1. Introduction<a name="step1">
 
-This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and MICRF RX CLICK with PIC18F47K40 using ASK Modulation. On the transmitter side MICRF TX sends the incremented counter value in ASK Modulation at 315MHz to the MICRF RX on the receiver side. The RSSI value of the received data along with the total number of packets is displayed on the LCD. By presssing the user button S1 we can view the Engineering datas such as Error, CRC, Protocol Failure and Buffer Overflow in the LCD.
+This application demonstrates the functionality of the MICRF TX CLICK module with a PIC16F1619 microcontroller and the MICRF RX CLICK module with a PIC18F47K40 microcontroller using Amplitude Shift Keying (ASK) modulation. 
+
+### Transmitter Side:
+
+- The MICRF TX module transmits an incrementing counter value via ASK modulation at a frequency of 315 MHz.
+
+- This transmission is received by the MICRF RX module on the receiver side.
+
+### Receiver Side:
+
+- The received data's Received Signal Strength Indicator (RSSI) value and the total number of packets received are displayed on an LCD screen.
+
+- By pressing the user button S1, the LCD switches to display engineering data, which includes error counts, CRC (Cyclic Redundancy Check) information, protocol failures, and buffer overflow statistics.
 
 ![](docs/app.png)
 
