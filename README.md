@@ -27,14 +27,14 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 1. [Bill of materials](#step2)
 1. [Hardware Setup](#step3)
 1. [Software Setup](#step4)
-1. [Harmony MCC Configuration](#step5)
+1. [MCC Melody Configuration](#step5)
 1. [Board Programming](#step6)
 1. [Run the demo](#step7)
 
 ## 1. Introduction<a name="step1">
 
-This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and MICRF RX CLICK with PIC18F47K40 using ASK Modulation.
-
+This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and MICRF RX CLICK with PIC18F47K40 using ASK Modulation. On the transmitter sithe MICRF TX sends the incremental counter value in ASK Modulation at 315MHz to the MICRF RX on the receiver side. The RSSI value of the received data along with the total number of packets is displayed on the LCD. By presssing the user button S1 we can view the Engineering datas such as Error, CRC, Protocol Failure and Buffer Overflow.
+de 
 ![](docs/app.png)
 
 ## 2. Bill of materials<a name="step2">
@@ -66,7 +66,7 @@ This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and 
 ### MICRF RX CLICK with PIC18F47K40(MCU) on Explorer 8 Development Kit.
 
 
-**Step 1** - Replace the default MCU of CExplorer 8 Development Kit with PIC18F47K40.
+**Step 1** - Replace the default MCU of Explorer 8 Development Kit with PIC18F47K40.
 
 **Step 2** - Connect the MICRF RX CLICK Board directly into J35 Jumper (MIKROE BUS Connector).
 
@@ -88,7 +88,7 @@ This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and 
 	- PIC12-16F1xxx_DFP v1.3.90
 	- PIC18F-K_DFP v1.7.134
 	 
-- [MPLAB X IPE v6.00](https://microchipdeveloper.com/ipe:installation)
+- [MPLAB X IPE v6.20](https://microchipdeveloper.com/ipe:installation)
 
 ## 5. Harmony MCC Configuration<a name="step5">
 
@@ -97,32 +97,71 @@ This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and 
 | Tip | New users of MPLAB Code Configurator are recommended to go through the [overview](https://onlinedocs.microchip.com/pr/GUID-1F7007B8-9A46-4D03-AEED-650357BA760D-en-US-6/index.html?GUID-AFAB9227-B10C-4FAE-9785-98474664B50A) |
 | :- | :- |
 
-- configure the MCC configuration as shown below.
+- Configure the following components in MCC Melody configuration as shown below.
+
+- Configure the INTERNAL OSCILLATOR as shown below.
 
 ![](docs/tx1.png) 
+
+- Configure the TMR4 as shown below.
+
 ![](docs/tx2.png) 
+
 ![](docs/tx3.png)  
+
+- Configure the CRC as shown below.
+
 ![](docs/tx4.png)
+
+- Configure the Pin Modules as shown below.
+
 ![](docs/tx5.png)
+
+- Click on Generate once all the components are configured.
 
 - Connect the USB for programming the Device from MPLAB X IDE.
 
 ### Getting started with MICRF RX CLICK with PIC18F47K40(MCU) on Explorer 8 Development Kit.
 
-- configure the MCC configuration as shown below.
+- Configure the following components in MCC Melody configuration as shown below.
+
+- Configure the System Module as shown below.
 
 ![](docs/rx1.png)
+
 ![](docs/rx2.png)
+
+- Configure the Interrupt Module as shown below.
+
 ![](docs/rx3.png)
+
+- Configure the CRC as shown below.
+
 ![](docs/rx4.png)
+
 ![](docs/rx5.png)
+
+- Configure the TMR6 as shown below.
+
 ![](docs/rx6.png)
+
 ![](docs/rx7.png)
+
+- Configure the ADCC as shown below.
+
 ![](docs/rx8.png)
+
+- Configure the TMR4 as shown below.
+
 ![](docs/rx9.png)
+
 ![](docs/rx10.png)
+
+- Configure the Pin Modules as shown below.
+
 ![](docs/rx11.png)
 
+- Click on Generate once all the components are configured.
 
 - Connect the IDC 3 In-Circuit Debugger to program the device..
 
