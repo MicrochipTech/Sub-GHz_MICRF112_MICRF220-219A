@@ -33,8 +33,8 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 
 ## 1. Introduction<a name="step1">
 
-This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and MICRF RX CLICK with PIC18F47K40 using ASK Modulation. On the transmitter sithe MICRF TX sends the incremental counter value in ASK Modulation at 315MHz to the MICRF RX on the receiver side. The RSSI value of the received data along with the total number of packets is displayed on the LCD. By presssing the user button S1 we can view the Engineering datas such as Error, CRC, Protocol Failure and Buffer Overflow.
-de 
+This Application demonstrates the working of MICRF TX CLICK with PIC16F1619 and MICRF RX CLICK with PIC18F47K40 using ASK Modulation. On the transmitter side MICRF TX sends the incremented counter value in ASK Modulation at 315MHz to the MICRF RX on the receiver side. The RSSI value of the received data along with the total number of packets is displayed on the LCD. By presssing the user button S1 we can view the Engineering datas such as Error, CRC, Protocol Failure and Buffer Overflow in the LCD.
+
 ![](docs/app.png)
 
 ## 2. Bill of materials<a name="step2">
@@ -42,13 +42,13 @@ de
 
 | Hardware Required       | Description  | Quantity |
 |:- |:- |:- |
-| DM164137                | Curiosity Development Board.  | 1 |
-| PIC16F1619              | Change MCU on DM164137 for MICRF TX CLICK.| 1 |
+| [DM164137](https://www.microchip.com/en-us/development-tool/dm164137)                | Curiosity Development Board.  | 1 |
+| [PIC16F1619](https://www.microchip.com/en-us/product/pic16f1619)              | Change MCU on DM164137 for MICRF TX CLICK.| 1 |
 | [MICRF TX CLICK](https://www.mikroe.com/micrf-tx-click)         | ASK/FSK Transmitter (315Mhz).    | 1 |
-| DM160228                | Explorer 8 Development Kit.       |   1 |
-| PIC18F47K40             | Change MCU on DM160228 for MICRF RX CLICK.   | 1 |
+| [DM160228](https://www.microchip.com/en-us/development-tool/dm160228)                | Explorer 8 Development Kit.       |   1 |
+| [PIC18F47K40](https://www.microchip.com/en-us/product/pic18f47k40)             | Change MCU on DM160228 for MICRF RX CLICK.   | 1 |
 | [MICRF RX CLICK](https://www.mikroe.com/micrf-rx-click)        | ASK/OOK Receiver (315Mhz).        | 1 |
-| ICD3                    | In-Circuit Debugging for DM160228    | 1 |
+| [ICD3](https://www.microchip.com/en-us/development-tool/dv164035)                    | In-Circuit Debugging for DM160228    | 1 |
 
 ## 3. Hardware Setup<a name="step3">
 
